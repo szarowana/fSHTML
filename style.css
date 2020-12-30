@@ -8,6 +8,15 @@
     background-image: url(https://images.unsplash.com/photo-1604537371539-83849e6f0142?ixid=MXwxMjA3fDF8MHxzZWFyY2h8MXx8d2F0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60s);
 background-size:cover;
     width:650px;
+    margin:150px auto 0;
+    padding:250px 70px 50px;
+    box-shadow:0 10px 10px rgba(0,0,0,0.3);
+        /* 轉場:轉場時間 */
+        transition:0.5s;
+}
+#card:hover{
+    transform:scale(1.2)
+}
     
 /* 上 左右 下 */
 margin:150px auto 0;
@@ -16,8 +25,24 @@ margin:150px auto 0;
     #content{
         background-color: rgba(red, green, blue, alpha);
         color:gold;
-        padding:30px 20px;
+        box-shadow:0 10px 10px rgba(0,0,0,0.3);
+        /* 轉場:轉場時間padding:30px 20px; */
+        
     }
     ul{
         padding-left:30px;
+    }
+    footer{
+        /* fz */
+        font-size: 72px;
+        /* tac */
+        text-align: center;
+        /* ls */
+        letter-spacing:80px;
+        /* pl */
+        padding-left:80px;
+        /* mt */
+        margin-top:50px;
+        /* C */
+        color:rgba(0,0,0,0.15);
     }
